@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.test.App">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1250" height="250"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <minimumSize width="1050" height="250"/>
+      <preferredSize width="1050" height="250"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="afa91" class="javax.swing.JTextArea" binding="txtData">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="293" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="0"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="3c254" class="javax.swing.JButton" binding="btnNext">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="293" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Next Request"/>
+        </properties>
+      </component>
+      <component id="2fc05" class="javax.swing.JButton" binding="btnApprove">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="410" height="42"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15293931"/>
+          <text value="Approve"/>
+        </properties>
+      </component>
+      <component id="e3ad8" class="javax.swing.JButton" binding="btnDecline">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="410" height="42"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3012589"/>
+          <text value="Decline"/>
+        </properties>
+      </component>
+      <component id="51456" class="javax.swing.JTextArea" binding="txtConsole">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="cc3ff" class="javax.swing.JButton" binding="btnProcessedLog">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="183" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="View processed log"/>
+        </properties>
+      </component>
+      <component id="af220" class="javax.swing.JButton" binding="btnApprovedLog">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="183" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="View approved log"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
